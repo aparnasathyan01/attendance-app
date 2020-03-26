@@ -1,0 +1,11 @@
+name: well-wisher-1.0
+on: push
+
+jobs:
+  build:
+    name: well-wisher
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Aman-zishan/first-github-action@v1
+        with:
+          MY_NAME: "APARNA"
